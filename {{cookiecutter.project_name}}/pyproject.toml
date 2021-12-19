@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "{{ cookiecutter.project_name }}"
+author = "{{ cookiecutter.author }}"
+author-email = "{{ cookiecutter.author_email }}"
+home-page = "{{ cookiecutter.project_home_page }}"
+requires = []
+requires-python = ">={{ cookiecutter.python_version }}"
+description-file="README.md"
